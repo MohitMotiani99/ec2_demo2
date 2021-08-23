@@ -3,7 +3,7 @@ var app = express()
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 
-app.listen(3300,()=>{
+app.listen(3305,()=>{
     console.log('EC2 Demo Server Started')
 })
 app.post('/showEmp',(req,res)=>{
